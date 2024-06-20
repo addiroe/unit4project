@@ -1,0 +1,98 @@
+/* General body styling */
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #1E3888;
+    color: #1E3888;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Title section styling */
+.title h1 {
+    text-align: center;
+    color: #BFD7EA;
+}
+
+/* Questions section styling */
+.questions {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.questions h4 {
+    color: #1E3888;
+}
+
+.numberA,
+.runningA,
+.colorA,
+.mealA{
+    background-color:#1E3888;
+    color: #BFD7EA;
+    margin:10px;
+}
+
+.numberM,
+.runningM,
+.colorM,
+.mealM{
+    background-color:#1E3888;
+    color: #BFD7EA;
+    margin:10px;
+}
+
+.numberG,
+.runningG,
+.colorG,
+.mealG{
+    background-color:#1E3888;
+    color: #BFD7EA;
+    margin:10px;
+
+}
+
+.numberD,
+.runningD,
+.colorD,
+.mealD{
+    background-color:#1E3888;
+    color: #BFD7EA;
+    margin:10px
+}
+.numbers{
+    text-align:center;
+}
+
+.running{
+    text-align:center;
+}
+
+.color{
+    text-align:center;
+}
+.meal{
+    text-align:center;
+}
+/* Result section styling */
+.result {
+    background-color: #e2e2e2;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.title,
+.numbers{
+    display:block;
+}
+
+.running,
+.color,
+.meal,
+.result{
+    display:none;
+}
